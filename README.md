@@ -43,3 +43,36 @@ Start the server
 ```bash
 yarn dev
 ```
+
+## (Type ORM)[https://typeorm.io/#/]
+
+Installation
+```bash
+yarn global add typeorm
+yarn add typeorm reflect-metadata sqlite3
+```
+
+Create Database Migrations  
+```bash
+yarn typeorm migration:create -n CreateSettings
+```
+
+Execute Migration
+```bash
+yarn typeorm migration:run
+```
+
+Revert Migration
+```bash
+yarn typeorm migration:revert
+```
+
+Install Library to generate UUID from Database
+```bash
+yarn add uuid
+```
+
+Install Types
+```bash
+yarn add @types/uuid -D
+```
