@@ -76,3 +76,13 @@ Install Types
 ```bash
 yarn add @types/uuid -D
 ```
+
+Create Users Table  
+```bash
+yarn typeorm migration:create -n CreateUsers
+```
+
+Create Messages Table  
+```bash
+yarn typeorm migration:create -n CreateMessages
+```
